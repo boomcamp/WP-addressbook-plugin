@@ -48,4 +48,4 @@ if( class_exists('Connection') ) {
 
 * Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor e.g `[mentor name="jino" course="PHP"]`
 
-
+* Use ` WP_Query` object to get new page id contents from the database and display to `page.php`
