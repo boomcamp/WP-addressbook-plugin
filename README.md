@@ -1,5 +1,5 @@
 # Introduction
-Create wordpress plugin `mentors` that display various database queries
+Create wordpress plugin `mentors` that display various database queries the custom plugin should be displayed from the existing [starter-wp-theme page.php](https://github.com/boomcamp/starter-wp-theme/blob/master/mytheme/page.php)
 
 ```
 <?php 
