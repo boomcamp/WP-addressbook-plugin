@@ -68,3 +68,12 @@ Example query by page slug:
 ```
 $mentor_page = WP_Query("pagename=mentors-page");
 ```
+# Finished
+
+Submit the following to Google Classroom assignment related to this project.
+
+Link to your repository 
+
+* The `mentors.zip` plugin.
+* The database of the project
+* The forked of your updated `starter-wp-theme`
