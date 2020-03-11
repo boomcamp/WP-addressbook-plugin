@@ -61,4 +61,10 @@ Students Handle:
 	5.) Micko Matamorosa
 ```
 
-* Use ` WP_Query` object to get your new page id and display the contents to `page.php`
+* Use ` WP_Query` object to get your page contents and display it to `page.php`
+
+Example query by page slug:
+
+```
+$mentor_page = WP_Query("pagename=mentors-page");
+```
