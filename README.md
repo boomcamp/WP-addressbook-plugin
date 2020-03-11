@@ -7,7 +7,7 @@ The connection class
 <?php 
 
 /**
- * Do not override!
+ * You need to use this starte class
  */
 
 class Connection
