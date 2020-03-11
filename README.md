@@ -36,7 +36,7 @@ if( class_exists('Connection') ) {
 ```
 # Database
 
-* The plugins connection should be a new instance object of connection class
+* The plugins should be connected to the new connection class
 
 * Course table = id , name
 
