@@ -63,13 +63,16 @@ Students Handle:
 
 * Use ` WP_Query` object to get your page contents and display it to `page.php`
 
-* Should also have A WAY to insert, update and delete a student handled by a mentor in a cohort. 
-
 Example query by page slug:
 
 ```
 $mentor_page = WP_Query("pagename=mentors-page");
+
 ```
+
+* Should also have A WAY to insert, update and delete a student handled by a mentor in a cohort. 
+
+
 # Finished
 
 Submit the following to Google Classroom assignment related to this project.
