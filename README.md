@@ -34,8 +34,18 @@ if( class_exists('Connection') ) {
 
 ?>
 ```
+# Database
+
+* The plugins connection should be a new instance object connection
+
+* Course table = id , name
+
+* Mentors table = id, course_id, fullname, address, contact, email
+
+* Students table = id, mentor_id, fullname
 
 # Requirements
-Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor e.g `[mentor name="jino" course="PHP"]`
+
+* Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor e.g `[mentor name="jino" course="PHP"]`
 
 
