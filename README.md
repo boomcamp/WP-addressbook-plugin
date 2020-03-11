@@ -36,7 +36,7 @@ if( class_exists('Connection') ) {
 ```
 # Database
 
-* The plugins connection should be a new instance object connection
+* The plugins connection should be a new instance object of connection class
 
 * Course table = id , name
 
@@ -48,4 +48,4 @@ if( class_exists('Connection') ) {
 
 * Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor e.g `[mentor name="jino" course="PHP"]`
 
-* Use ` WP_Query` object to get new page id contents from the database and display to `page.php`
+* Use ` WP_Query` object to get your new page id and display the contents to `page.php`
