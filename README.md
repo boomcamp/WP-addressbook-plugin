@@ -36,7 +36,8 @@ if( class_exists('Connection') ) {
 ```
 
 # Shortcodes
-This should display the mentors detail and the students handled by the mentor.
-* [mentor name="jino" course="PHP"]
+Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor.
+
+example: [mentor name="jino" course="PHP"]
 
 
