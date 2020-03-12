@@ -80,7 +80,9 @@ $mentor_page = WP_Query("pagename=$mentors-page');
 //Continue the loop here..
 ```
 
-* Should also have A WAY to [insert, update](https://www.kvcodes.com/2014/06/how-to-create-custom-forms-in-wordpress-without-using-plugins/) and delete a student handled by a mentor in a cohort. 
+* Should also have A WAY to insert, update using a custom [form](https://www.kvcodes.com/2014/06/how-to-create-custom-forms-in-wordpress-without-using-plugins/)
+
+* or Should also have a WAY to delete a student handled. 
 
 * Display shortcode inside custom theme by using `do_shortcode()` function.
 
