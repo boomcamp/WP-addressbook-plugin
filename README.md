@@ -76,6 +76,7 @@ foreach ( $pages as $page ) {
 
 $mentor_page = WP_Query("pagename=$mentors-page');
 
+//Continue the loop here..
 ```
 
 * Should also have A WAY to insert, update and delete a student handled by a mentor in a cohort. 
