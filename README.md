@@ -66,6 +66,13 @@ Students Handle:
 Example query by page slug:
 
 ```
+/**
+$pages = get_pages();
+foreach ( $pages as $page ) {
+  //your code to assign the $mentor_page
+}
+**/
+
 $mentor_page = WP_Query("pagename=mentors-page");
 
 ```
