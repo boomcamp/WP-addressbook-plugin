@@ -41,9 +41,10 @@ if( class_exists('Connection') ) {
 Entities:
 
 ```
+* User details = id, fullname, contact, address, email
 * Course table = id , name
-* Mentors table = id, course_id, fullname, address, contact, email
-* Students table = id, mentor_id, fullname
+* Mentors table = id, user_id, course_id
+* Students table = id, user_id, mentor_id
 ```
 
 # Requirements
@@ -79,7 +80,7 @@ $mentor_page = WP_Query("pagename=$mentors-page');
 //Continue the loop here..
 ```
 
-* Should also have A WAY to insert, update and delete a student handled by a mentor in a cohort. 
+* Should also have A WAY to [insert, update](https://www.kvcodes.com/2014/06/how-to-create-custom-forms-in-wordpress-without-using-plugins/) and delete a student handled by a mentor in a cohort. 
 
 * Display shortcode inside custom theme by using `do_shortcode()` function.
 
