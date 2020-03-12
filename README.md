@@ -7,7 +7,7 @@ The connection class
 <?php 
 
 /**
- * You need to use this starter class
+ * You need to use this starter class to instantiate new database connection
  */
 
 class Connection
