@@ -29,7 +29,7 @@ if( class_exists('Connection') ) {
 }
 
 /**
- * Continue your code here..
+ * Continue your plugin code here..
  */
 
 ?>
