@@ -61,19 +61,18 @@ Students Handle:
 	5.) Micko Matamorosa
 ```
 
-* Use ` WP_Query` object to get your page contents and display it to `page.php`
+* Use ` WP_Query` object to get custom `Mentors Page` and its contents and display it to `page.php`
 
-Example query by page slug:
+Example query by using the page slug:
 
 ```
-/**
 $pages = get_pages();
 foreach ( $pages as $page ) {
-  //your code to assign the $mentor_page
+  //your code to assign the $mentors-page
 }
-**/
 
-$mentor_page = WP_Query("pagename=mentors-page");
+
+$mentor_page = WP_Query("pagename=$mentors-page');
 
 ```
 
