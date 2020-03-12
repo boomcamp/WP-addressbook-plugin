@@ -60,7 +60,7 @@ Students Handle:
 	1.) Jaako Andes
 	2.) Seatiel Austria
 	3.) Jude Agagad
-	5.) Micko Matamorosa
+	4.) Micko Matamorosa
 ```
 
 * Use ` WP_Query` object to get custom `Mentors Page` and its contents and display it to `page.php`
