@@ -38,11 +38,13 @@ if( class_exists('Connection') ) {
 
 * The plugins should be connected to the new connection class
 
+Entities:
+
+```
 * Course table = id , name
-
 * Mentors table = id, course_id, fullname, address, contact, email
-
 * Students table = id, mentor_id, fullname
+```
 
 # Requirements
 
