@@ -78,7 +78,13 @@ $mentor_page = WP_Query("pagename=$mentors-page');
 
 * Should also have A WAY to insert, update and delete a student handled by a mentor in a cohort. 
 
-* Display your custom shortcode inside custom theme by using `do_shortcode()` function.
+* Display shortcode inside custom theme by using `do_shortcode()` function.
+
+Example:
+
+```
+<?php echo do_shortcode('[mentor name="jino" course="PHP"]'); ?>
+```
 
 # Finished
 
