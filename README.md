@@ -16,13 +16,15 @@ Create a wordpress plugin called `wpcrud` and implement OOP from the previous [A
 
 ### Functionality
 
-- Able to create `N` records using shortcode in a page.
+- Able to create `N` records in a page using shortcode.
 
 Example: display 5 contacts `N = 5`
 
 ```
 [contacts='5']
 ```
+
+- A way to display a paginated list of contact.
 
 - A way to create new contact.
 
