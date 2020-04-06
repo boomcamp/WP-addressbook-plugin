@@ -1,70 +1,44 @@
 # Introduction
-Create wordpress plugin `mentors` that display various database queries the custom plugin should be displayed from the existing [starter-wp-theme (page.php)](https://github.com/boomcamp/starter-wp-theme/blob/master/mytheme/page.php)
 
-# Database
+Create a wordpress plugin called `wpcrud` and implement OOP from the previous [AddressBook Refactor](https://github.com/boomcamp/PHP1-OOP-AddressBook-refactor).
 
-* The plugins should be connected to the custom wpdb connection class
+### Database
 
-Entities:
+- The plugin should connected on a `new wpdb()` connection class and implemented in an interface called `IDBcredentials`.
 
-```
-* User details = id, fullname, contact, address, email
-* Course table = id , name
-* Mentors table = id, user_id, course_id
-* Students table = id, user_id, mentor_id
-```
+- Class `wpcrud` should be dependent in `Connection` class.
 
-# Requirements
+### Design
 
-* Using [shortcode attributes](https://pippinsplugins.com/shortcodes-101-shortcode-attributes/) display the mentors detail and the students handled by the mentor e.g `[mentor name="jino" course="PHP"]`
+- Design layouts should be resposive, `styles` and `script` are both `enqueue` in wordpress `admin` and `public` website.
 
-Example query result:
+- A custom form should be used in the design.
 
-```
-Mentor: Jino
-Course: PHP Fall 2020
+### Functionality
 
-Students Handle:
-	1.) Jaako Andes
-	2.) Seatiel Austria
-	3.) Jude Agagad
-	4.) Micko Matamorosa
-```
+- Able to create `N` records using shortcode in a page.
 
-* Use ` WP_Query` object to get custom `Mentors Page` and its contents and display it to `page.php`
-
-Example query by using the page slug:
+Example: display 5 contacts `N = 5`
 
 ```
-$pages = get_pages();
-foreach ( $pages as $page ) {
-  //your code to assign the $mentors-page
-}
-
-
-$mentor_page = WP_Query("pagename=$mentors-page');
-
-//Continue the loop here..
+[contacts='5']
 ```
 
-* Should also have A WAY to insert, update using a custom [form](https://www.kvcodes.com/2014/06/how-to-create-custom-forms-in-wordpress-without-using-plugins/)
+- A way to create new contact.
 
-* or Should also have a WAY to delete a student handled. 
+- A way to delete contact from table.
 
-* Display shortcode inside custom theme by using `do_shortcode()` function.
+- A way to update a contact.
 
-Example:
+- A way to `activate`, `deactivate` and `delete` the plugin.
 
-```
-<?php echo do_shortcode('[mentor name="jino" course="PHP"]'); ?>
-```
 
 # Finished
 
 Submit the following to Google Classroom assignment related to this project.
 
-Link to your repository 
+- Link to your repository
 
-* The `mentors.zip` plugin.
-* The database of the project
-* The forked of your updated `starter-wp-theme`
+- The `wpcrud.zip` plugin.
+
+- The `database` of the plugin 
