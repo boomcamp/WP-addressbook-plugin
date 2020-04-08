@@ -12,7 +12,7 @@ Create a wordpress plugin called `wpcrud` and implement OOP from the previous [A
 
 - Design layouts should be resposive, `styles` and `script` are both `enqueue` in wordpress `admin` and `public` website.
 
-- A custom form should be implemented in the design.
+- A custom form for CRUD operations should be implemented in the design.
 
 ### Functionality
 
