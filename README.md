@@ -41,6 +41,6 @@ Submit the following to Google Classroom assignment related to this project.
 
 - Link to your repository
 
-- The `wpcrud.zip` plugin.
+- The `Wpcrud.zip` plugin.
 
 - The `database` of the plugin 
